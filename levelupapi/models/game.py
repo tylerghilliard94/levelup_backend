@@ -1,7 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
 from .gametype import Gametype
-from django.db.models.deletion import CASCADE
 
 
 class Game(models.Model):
