@@ -88,7 +88,7 @@ class GameView(ViewSet):
         game.skill_level = request.data["skillLevel"]
         game.gamer = gamer
 
-        game_type = GameType.objects.get(pk=request.data["gameTypeId"])
+        game_type = Gametype.objects.get(pk=request.data["gameTypeId"])
         game.game_type = game_type
         game.save()
 
