@@ -4,4 +4,12 @@
         "--load-plugins=pylint_django",
         "--django-settings-module=levelup-server/levelup/settings.py.settings",
     ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "db.sqlite3",
+            "database": "db.sqlite3"
+        }
+    ],
 }

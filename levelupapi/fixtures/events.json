@@ -14,7 +14,7 @@
         "model": "levelupapi.event",
         "pk": 2,
         "fields": {
-            "organizer": 1,
+            "organizer": 2,
             "description": "Friday night Settlers and drinks",
             "game": 2,
             "date": "2021-08-14",
